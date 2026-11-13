@@ -1,5 +1,7 @@
 # Dragones Marinos S.A.V.
 
+Copyright (c) 2026 Alexander Juarez
+
 Sistema local de punto de venta y administracion para escuela/club de natacion. La version actual funciona como frontend local con persistencia en `localStorage`, por lo que puedes usarlo sin levantar APIs ni base de datos.
 
 ## Estado actual
