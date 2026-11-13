@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: dragones-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: dragones_marinos
+      POSTGRES_USER: dragones
+      POSTGRES_PASSWORD: dragones123
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/01-init.sql
+
+volumes:
+  postgres_data:

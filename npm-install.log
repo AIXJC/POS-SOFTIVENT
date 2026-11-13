@@ -1,0 +1,17 @@
+﻿
+up to date in 3s
+npm.cmd : npm warn allow-scripts 1 package has install scripts not yet 
+covered by allowScripts:
+En línea: 1 Carácter: 73
++ ... ES_MARINOS_SFAVIS'; npm.cmd install --no-audit --no-fund 2>&1 | Out-F 
+...
++                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm warn allow-...y allowScrip 
+   ts::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm warn allow-scripts   esbuild@0.25.12 (install: (install scripts 
+present))
+npm warn allow-scripts
+npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to 
+review, or `npm approve-scripts <pkg>` to allow.

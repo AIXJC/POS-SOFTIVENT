@@ -1,0 +1,2 @@
+◇ injected env (7) from backend\.env // tip: ◈ secrets for agents [www.dotenvx.com]
+Backend running on http://127.0.0.1:3003 mode=json-memory

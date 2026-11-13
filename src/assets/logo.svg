@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Brand mark: Simple grocery basket/wave icon -->
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#3B82F6"/>
+      <stop offset="100%" stopColor="#10B981"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="56" fill="none" stroke="url(#brandGrad)" stroke-width="3"/>
+  <!-- Wave/basket shape -->
+  <path d="M20 80 Q40 55 60 55 Q80 55 100 80" fill="none" stroke="url(#brandGrad)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M35 88 Q50 72 65 72" fill="none" stroke="url(#brandGrad)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M45 88 Q60 78 75 88" fill="none" stroke="url(#brandGrad)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Dot accents -->
+  <circle cx="40" cy="45" r="3" fill="url(#brandGrad)"/>
+  <circle cx="80" cy="45" r="3" fill="url(#brandGrad)"/>
+</svg>
